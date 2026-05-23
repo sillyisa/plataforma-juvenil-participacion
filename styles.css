@@ -40,17 +40,6 @@ main {
   padding: 36px 26px 48px;
 }
 
-main.card {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.95),
-    rgba(255, 240, 247, 0.95)
-  );
-  border-radius: var(--radio);
-  border: 2px solid var(--secundario);
-  box-shadow: 0 12px 30px rgba(92, 84, 112, 0.12);
-  padding: 36px;
-}
 
 h1,
 h2 {
@@ -138,12 +127,30 @@ input:focus {
 }
 
 .card {
-  background: #fff0f7;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.95),
+    rgba(255, 240, 247, 0.95)
+  );
+  border-radius: var(--radio);
   border: 2px solid var(--secundario);
-  border-radius: 18px;
-  padding: 18px;
-  margin-bottom: 16px;
+  box-shadow: 0 12px 30px rgba(92, 84, 112, 0.12);
+  padding: 36px;
+  margin-bottom: 28px; 
   transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+.tarjeta-principal {
+  text-align: center;
+}
+
+
+.card:hover {
+  transform: scale(1.02);
 }
 
 .card:hover {
@@ -155,7 +162,7 @@ input:focus {
     padding: 24px 18px 32px;
   }
 
-  main.card {
+  .card {
     padding: 28px;
   }
 
