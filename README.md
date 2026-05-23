@@ -2,6 +2,19 @@
 
 Este repositorio será utilizado para construir progresivamente un proyecto pedagógico sobre participación juvenil, transparencia, control ciudadano y tecnología.
 
+# Identidad del proyecto
+Nombre del estudiante: Isabela Castilla Berrío
+
+Nombre de la plataforma: Plataforma Juvenil de Participación
+
+Propósito: Aprender cómo la tecnología puede apoyar ejercicios pedagógicos de participación juvenil, transparencia y trazabilidad.
+
+# Reglas de cuidado
+No usar datos reales. No usar cédulas. No usar información sensata. No usar nombres de candidatos reales. No presentar resultados como oficiales.
+
+# Importancia de Git
+Git permite registrar los cambios del proyecto y revisar qué se modificó en cada momento.
+
 ## Advertencia
 
 Este proyecto es únicamente académico.
