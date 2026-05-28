@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": 1779835123401,
+    "nombre": "Laura Mendoza",
+    "rol": "Innovación Social",
+    "propuesta": "Desarrollo de aplicaciones educativas comunitarias",
+    "estado": "Perfil de práctica académica"
+  },
+  {
+    "id": 1779835198742,
+    "nombre": "Andres Villalba",
+    "rol": "Participación Ciudadana",
+    "propuesta": "Plataforma digital para reportes juveniles",
+    "estado": "Perfil de práctica académica"
+  },
+  {
+    "id": 1779835261930,
+    "nombre": "Sara Beltran",
+    "rol": "Tecnología Comunitaria",
+    "propuesta": "Capacitación en herramientas web y programación básica",
+    "estado": "Perfil de práctica académica"
+  },
+  {
+    "id": 1779835338475,
+    "nombre": "Daniel Herrera",
+    "rol": "Comunicación Digital",
+    "propuesta": "Portal interactivo para actividades estudiantiles",
+    "estado": "Perfil de práctica académica"
+  }
+]

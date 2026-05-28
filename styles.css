@@ -278,3 +278,105 @@ input:focus {
     transform: translateY(0);
   }
 }
+
+.formulario-candidato {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.96),
+    rgba(255, 240, 247, 0.95)
+  );
+  border: 2px solid var(--secundario);
+  border-radius: var(--radio);
+  padding: 32px;
+  margin-top: 30px;
+  box-shadow: 0 12px 30px rgba(92, 84, 112, 0.12);
+}
+
+.formulario-candidato h2 {
+  color: var(--primario);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formulario-candidato input,
+.formulario-candidato textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 12px;
+  padding: 14px;
+  border: 2px solid var(--secundario);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.85);
+  font-size: 15px;
+  color: var(--texto);
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.formulario-candidato input:focus,
+.formulario-candidato textarea:focus {
+  border-color: var(--primario);
+  box-shadow: 0 0 12px rgba(195, 142, 180, 0.25);
+  transform: scale(1.01);
+}
+
+.formulario-candidato textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.formulario-candidato button {
+  width: 100%;
+  margin-top: 18px;
+  padding: 14px;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(
+    135deg,
+    var(--primario),
+    var(--acento)
+  );
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.formulario-candidato button:hover {
+  transform: translateY(-2px) scale(1.01);
+  box-shadow: 0 8px 18px rgba(181, 219, 255, 0.3);
+}
+
+#mensajeGuardado {
+  margin-top: 16px;
+  text-align: center;
+  font-weight: 600;
+  color: var(--primario);
+}
+
+.tarjeta-guardada {
+  margin-top: 20px;
+  padding: 18px;
+  border-radius: 18px;
+  background: linear-gradient(
+    180deg,
+    #ffffff,
+    #fff0f7
+  );
+  border: 2px solid var(--secundario);
+  box-shadow: 0 8px 18px rgba(92, 84, 112, 0.08);
+  animation: aparecer 0.4s ease;
+}
+
+.tarjeta-guardada h3 {
+  margin-top: 0;
+  color: var(--primario);
+}
+
+.tarjeta-guardada p {
+  margin: 8px 0;
+}
+
+
+
