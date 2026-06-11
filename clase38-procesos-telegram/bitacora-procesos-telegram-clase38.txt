@@ -1,0 +1,41 @@
+BITÁCORA DE PROCESOS Y TELEGRAM - CLASE 38
+
+Nombre:Isabela Castilla Berrío.
+Fecha:11/06/2026
+Entorno: GitHub Codespaces
+
+1. ¿Qué es un proceso?
+Respuesta: El proceso es un programa que se esta ejecutando por el sistema operativo.
+
+2. ¿Qué significa que un proceso esté corriendo?
+Respuesta: Que esta funcionando correctamente, esta ejectundose en la memoria para realizar un trabajo.
+
+3. ¿Qué puede pasar si un proceso se detiene?
+Respuesta: Que algo salió mal, la tarea que se estabaja ejecutando, se paro.
+
+4. ¿Qué comandos usé para observar procesos?
+Respuesta: top.
+
+5. ¿Qué es un bot de Telegram?
+Respuesta: Es un chat de prueba controlado por un programa y no una persona real.
+
+6. ¿Qué es un token?
+Respuesta: es como una contraseña única de acceso, siendo una cadena de caracteres para que nos identifiquen.
+
+7. ¿Por qué el token no debe publicarse?
+Respuesta: Porque contiene la llaves de acceso, a nuestra información privada. De ser pública, puede ser aprovechada por personas equivocadas.
+
+8. ¿Dónde se guardó el token?
+Respuesta: se guardo en un archivo .env
+
+9. ¿Por qué .env debe estar en .gitignore?
+Respuesta: Porque un archivo .gitignore oculta la información sensible, como la que tendría un .env
+
+10. ¿Qué diferencia hay entre telegram-test.js y bot-observacion.js?
+Respuesta: El primero era un emisor: "Envía un mensaje a Telegram y termina." El otro es un observador: "Mantente ejecutándose y muestra en la consola los mensajes que reciba el bot."
+
+11. ¿Cómo puede servir Telegram a una comunidad digital?
+Respuesta: Puede servir como un medio de comunicar necesidades, también de crear un espacio de ayuda mutua.
+
+12. ¿Qué información no debería enviarse por un bot sin protocolo?
+Respuesta: Debe existir un protocolo debido a que en un bot se almacena información sensible. Que de no haber por lo menos un token o llave de acceso, cualquier persona tiene acceso a esa información.
