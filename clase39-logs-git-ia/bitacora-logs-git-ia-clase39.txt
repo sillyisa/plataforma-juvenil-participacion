@@ -1,0 +1,45 @@
+BITÁCORA OPERATIVA - CLASE 39
+Logs, Git e IA responsable
+
+Nombre:Isabela Castilla Berrío.
+Fecha:11/06/2026
+Entorno: GitHub Codespaces
+
+1. ¿Qué es un log?
+Respuesta: Es como un registro de las actividades o eventos mientras se ejecuta un programa.
+
+2. ¿Por qué un log ayuda a diagnosticar?
+Respuesta: Ayuda a diagnosticar porque el log lleva un registro y conoce lo que programa antes que se ejecutara.
+
+3. ¿Qué diferencia hay entre INFO, WARN y ERROR?
+Respuesta: Las diferencias ocurren en su acción. El INFO: informa que algo ocurrió. El WARN: advierte algo que debe revisarse. ERROR: indica que algo importante falló.
+
+4. ¿Qué log observé en la práctica?
+Respuesta: cuando ejecute el archivo Logs-demo y telegram-log-demo. Observe el log: INFO, WARN, ERROR.
+
+5. ¿Qué significa el error observado?
+Respuesta: Cuando no se encontro una id.
+
+6. ¿Qué información sensible no debo compartir en logs?
+Respuesta: Información como: contraseñas, tokens o claves API.
+
+7. ¿Qué comando de Git usé para revisar cambios?
+Respuesta: git status.
+
+8. ¿Qué mensaje de commit usé?
+Respuesta: Clase 39 logs git e IA responsable
+
+9. ¿Qué consulta segura hice a IA?
+Respuesta: Preguntar qué hace un comando npm install dotenv de terminal.
+
+10. ¿Qué información oculté antes de consultar a IA?
+Respuesta: tokens, información sensible.
+
+11. ¿Qué respondió la IA?
+Respuesta: El comando npm install dotenv instala la librería dotenv, que permite cargar variables de entorno desde un archivo .env para usar datos de configuración y credenciales de forma más segura en una aplicación Node.js.
+
+12. ¿Cómo validé la respuesta?
+Respuesta: ejecutando el comando.
+
+13. ¿Qué aprendí sobre trazabilidad?
+Respuesta:Aprendi que herramientas como el log, ayudan a regitrar cambios o eventos. Que eventualmente ayudan a esa trazabilidad.
