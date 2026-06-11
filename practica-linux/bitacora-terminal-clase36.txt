@@ -1,0 +1,249 @@
+BITÁCORA DE TERMINAL - CLASE 36
+Código abierto, soberanía tecnológica y primeros pasos en terminal
+
+Nombre del estudiante: Isabela Castilla Berrío.
+Fecha:11/06/2026
+Clase:36
+Entorno usado: GitHub.
+
+1. ¿Qué es un sistema operativo?
+Respuesta: Es el software principal de un dispositivo, que coordina todos los servicios que utiliza un usuario.
+
+2. ¿Qué es el código abierto?
+Respuesta: Es un software que esta abierto a toda persona, para que modifique, observe, añada nuevas cosas. Por ejemplo como Linux.
+
+3. ¿Qué significa soberanía tecnológica?
+Respuesta: Significa que la misma comunidad, Estado, nación. Cuente con las herramientas para gestionar su propia información, sus datos.
+
+4. ¿Qué es Linux?
+Respuesta: Es un sistema operativo de código abierto.
+
+5. ¿Qué es Debian?
+Respuesta: Igualmente es un sistema operativo de software abierto.
+
+6. ¿Qué es un servidor?
+Respuesta: Es un sistema que procesa las solicitudes y entrega un servicio, dato o aplicación por medio de una red o internet.
+
+7. ¿Qué es una terminal?
+Respuesta: Es una interfaz basada en texto que recibe comandos para interactuar directamente con el sistema operativo.
+
+8. Comandos ejecutados y resultado observado:
+
+Comando: whoami
+Resultado:codespace
+
+Comando: hostname
+Resultado:codespaces-416710
+
+Comando: date
+Resultado:Thu Jun 11 20:06:57 UTC 2026
+
+Comando: pwd
+Resultado:/workspaces/plataforma-juvenil-participacion
+
+Comando: ls
+Resultado:README.md        app.js  evidencia-clase-35-n8n-telegram.md  node_modules          package-lock.json  resultados.html  styles.css               votar.html
+alerta-n8n.html  data    index.html                          nota-clase-33-n8n.md  package.json       server.js        tablero-resultados.html
+
+Comando: ls -la
+Resultado:total 112
+drwxrwxrwx+  5 codespace root       4096 Jun  6 00:16 .
+drwxr-xrwx+  5 codespace root       4096 May 22 00:01 ..
+drwxrwxrwx+  8 codespace root       4096 Jun 11 20:06 .git
+-rw-rw-rw-   1 codespace codespace  1241 May 23 00:33 README.md
+-rw-rw-rw-   1 codespace codespace  2974 Jun  8 21:18 alerta-n8n.html
+-rw-rw-rw-   1 codespace codespace  2941 May 29 03:20 app.js
+drwxrwxrwx+  3 codespace codespace  4096 May 29 02:32 data
+-rw-rw-rw-   1 codespace codespace   783 Jun  6 00:18 evidencia-clase-35-n8n-telegram.md
+-rw-rw-rw-   1 codespace codespace  4206 May 28 22:22 index.html
+drwxrwxrwx+ 67 codespace codespace  4096 May 28 21:41 node_modules
+-rw-rw-rw-   1 codespace codespace   320 Jun  2 23:59 nota-clase-33-n8n.md
+-rw-rw-rw-   1 codespace codespace 29542 Jun  3 00:28 package-lock.json
+-rw-rw-rw-   1 codespace codespace   792 Jun  3 00:28 package.json
+-rw-rw-rw-   1 codespace codespace  1848 May 29 03:41 resultados.html
+-rw-rw-rw-   1 codespace codespace  3947 Jun  1 01:21 server.js
+-rw-rw-rw-   1 codespace codespace  7278 Jun  3 00:26 styles.css
+-rw-rw-rw-   1 codespace codespace  3964 Jun  1 01:23 tablero-resultados.html
+-rw-rw-rw-   1 codespace codespace  4942 May 29 03:20 votar.html
+
+Comando: mkdir practica-linux
+Resultado: crea una carpeta llamada practica-Linux
+
+Comando: cd practica-linux
+Resultado: se mueve a la carpeta practica-Linux
+
+Comando: touch notas.txt
+Resultado: crea un archivo de texto llamado notas.txt
+
+Comando: echo "Mi primera practica en terminal Debian" > notas.txt
+Resultado: Ecribe ese texto dentro del archivo de texto en notas.txt
+
+Comando: cat notas.txt
+Resultado:Mi primera practica en terminal Debian
+
+Comando: cp notas.txt copia-notas.txt
+Resultado:pia-notas.txt
+
+Comando: mv copia-notas.txt notas-renombradas.txt
+Resultado:txt notas-renombradas.txt
+
+Comando: mkdir respaldo
+Resultado: Crea una carpeta llamada respaldo
+
+Comando: mv notas-renombradas.txt respaldo/
+Resultado:radas.txt respaldo/
+
+Comando: df -h
+Resultado:Filesystem      Size  Used Avail Use% Mounted on
+overlay          32G  9.8G   20G  33% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M     0   64M   0% /dev/shm
+/dev/root        29G   22G  7.2G  76% /vscode
+/dev/sda1        44G  1.1G   41G   3% /tmp
+/dev/loop4       32G  9.8G   20G  33% /workspaces
+
+Comando: free -h
+Resultado:  total        used        free      shared  buff/cache   available
+Mem:           7.8Gi       1.8Gi       162Mi        59Mi       6.2Gi       5.9Gi
+Swap:             0B          0B          0B
+
+Comando: uname -a
+Resultado:Linux codespaces-416710 6.8.0-1052-azure #58~22.04.1-Ubuntu SMP Thu Mar 26 05:02:21 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+
+Comando: history
+Resultado:1  git branch
+    2  touch app.js
+    3  git status
+    4  git add .
+    5  git status
+    6  git commit -m " Clase 27 estructura visual e interacción inicial"
+    7  git push 
+    8  git push --set-upstream origin clase-27-estructura-visual-js
+    9  npm run sitio
+   10  npm install 
+   11  git granch
+   12  git branch
+   13  git status
+   14  git add .
+   15  git status
+   16  ls
+   17  git pull origin clase-28-pantalla-candidatos
+   18  git checkout -b clase-29-backend-json-basico
+   19  git branch
+   20  git status
+   21  git add .
+   22  npm init -y
+   23  npm install express 
+   24  mkdyr data
+   25  mkdir data
+   26  cd data
+   27  git status
+   28  git add .
+   29  git status
+   30  git add .
+   31  git status
+   32  git add .
+   33  git status
+   34  node server.js
+   35  git status
+   36  git restore ../package-lock.json
+   37  git status
+   38  git add .
+   39  git status
+   40  git add ../node_modules/
+   41  git add ../package.json
+   42  git status
+   43  node server .js
+   44  node server.js
+   45  node server.jes
+   46  node server.js
+   47  git branch
+   48  git status
+   49  git restore server.js
+   50  git add .
+   51  git status
+   52  node server.js
+   53  git add .
+   54  git status
+   55  git add .
+   56  node server.js
+   57  git checkout -b clase-36-codigo-abierto-terminal
+   58  whoami
+   59  hostname
+   60  date
+   61  pwd
+   62  ls
+   63  ls -la
+   64  cd ~
+   65  pwd
+   66  cd /workspaces/plataforma-juvenil-participacion
+   67  cd clase-36-codigo-abierto-terminal
+   68  mkdir practica-linux
+   69  cd practica-linux
+   70  touch notas.txt
+   71  echo "Mi primera practica en terminal Debian" > notas.txt
+   72  cat notas.txt
+   73  cp notas.txt copia-notas.txt
+   74  ls
+   75  mv copia-notas.txt notas-renombradas.txt
+   76  mkdir respaldo
+   77  mv notas-renombradas.txt respaldo/
+   78  ls
+   79  ls respaldo
+   80  df -h
+   81  free -h
+   82  uname -a
+   83  history
+
+Comando: ip a
+Resultado:1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 00:22:48:4e:a2:6d brd ff:ff:ff:ff:ff:ff
+    inet 10.0.0.174/16 metric 100 brd 10.0.255.255 scope global eth0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::222:48ff:fe4e:a26d/64 scope link 
+       valid_lft forever preferred_lft forever
+3: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+    link/ether 02:42:74:d5:a6:c9 brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+       valid_lft forever preferred_lft forever
+@sillyisa ➜ /workspaces/plataforma-juvenil-participacion/practica-linux (clase-36-codigo-abierto-terminal) $ top
+top - 20:12:31 up 9 min,  0 user,  load average: 0.32, 1.46, 1.26
+Tasks:  19 total,   1 running,  18 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  7.1 us,  8.7 sy,  0.0 ni, 84.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   7944.5 total,    150.5 free,   1855.4 used,   6313.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   6089.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                                  
+    600 codespa+  20   0   17.9g 360556  59004 S   1.7   4.4   0:15.41 MainThread                                                                                               
+   1113 codespa+  20   0 1543480  74432  49112 S   0.3   0.9   0:01.18 MainThread                                                                                               
+      1 codespa+  20   0    1136    812    756 S   0.0   0.0   0:00.06 docker-init                                                                                              
+      7 codespa+  20   0    2800   1824   1712 S   0.0   0.0   0:00.10 sh                                                                                                       
+     35 root      20   0   12020   3052   1912 S   0.0   0.0   0:00.00 sshd                                                                                                     
+     58 root      20   0 2033136  92992  65028 S   0.0   1.1   0:00.33 dockerd                                                                                                  
+     72 root      20   0 1803876  52520  36084 S   0.0   0.6   0:00.25 containerd                                                                                               
+    168 codespa+  20   0    2800   1932   1820 S   0.0   0.0   0:00.00 sh                                                                                                       
+    194 root      20   0    2800   1872   1756 S   0.0   0.0   0:00.00 sh       
+
+Comando: top
+Resultado:
+
+9. ¿Qué comando me pareció más útil y por qué?
+Respuesta:El comando que me parecio más útil es el mv que cambia el nombre. Ya que, es un comando que se usaría con más cotidianidad.
+
+10. ¿Qué aprendí sobre el uso responsable de la terminal?
+Respuesta: A saber el uso correcto de comando y aprenderlos. Asimismo, de no confiar en comandos que me de la IA u otras fuentes, que pueden dañar mi proceso.
+
+11. ¿Qué información no debo publicar en capturas o evidencias?
+Respuesta: Información personal, como: ip, nombres de otras personas, tokens, claves, contraseñas.
+
+12. ¿Qué cuidados debo tener al trabajar en un servidor?
+Respuesta: Cuidar de la información que le soy. Debido a que puede caer en la manos inadecuadas.
+
+13. ¿Cómo se relaciona la terminal con la soberanía tecnológica?
+Respuesta: A que nosotros mismos aprendamos como funciona estos procesos. Saber que nos afecta, como lo ajustamos a nuestras necesidades. Dejando de depender de potencias extranjeras.
