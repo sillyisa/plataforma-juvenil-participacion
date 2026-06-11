@@ -1,0 +1,29 @@
+BITÁCORA DE PERMISOS - CLASE 37
+
+Nombre:Isabela Castilla Berrío.
+Fecha:11/06/2026
+Entorno: GitHub Codespaces
+
+1. ¿Qué significa el permiso -rw-rw-r--?
+Respuesta: Significa que el propietario y su grupo puede leer, modificar. En cambio los demás usuarios solo pueden leer. 
+
+2. ¿Qué significa chmod 777?
+Respuesta: Significa que todos tienen acceso para modificar un archivo.
+
+3. ¿Por qué 777 es riesgoso?
+Respuesta: Es riesgoso porque no todos necesitan tener acceso a modificar un archivo o carpeta. Ya que, puede haber un robo de información sensible.
+
+4. ¿Qué permisos son más adecuados para un archivo .env?
+Respuesta: Los más adecuados serían: 644 → rw-r--r-- (Archivo público de lectura, solo propietario modifica), 664 → rw-rw-r-- (Propietario y grupo modifican, otros solo leen), 755 → rwxr-xr-x (	Propietario y grupo modifican, otros solo leen o entran).
+
+5. ¿Por qué un archivo .env no debe estar dentro de una carpeta pública?
+Respuesta: Porque guarda información privada de la pagina, no abierta al público. Comapartirla puede ser un riesgo tecnologico.
+
+6. ¿Qué pasó cuando se simuló la exposición de config-expuesto.env?
+Respuesta: Se expuso los datos sensibles de la página. Como: el token y la contraseña. 
+
+7. ¿Cómo se corrigió el problema?
+Respuesta: Se corrigieron los permisos, para que no todos podamos ver la información privada.
+
+8. ¿Qué relación tiene esto con Telegram, Node.js o n8n?
+Respuesta: Por lo general, también manejan información sensible. Como: Tokens, claves API, creedenciales. Pero quedan guardadas en archivos .env.
