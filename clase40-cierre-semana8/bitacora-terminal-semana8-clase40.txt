@@ -1,0 +1,48 @@
+BITÁCORA DE PRÁCTICA DE TERMINAL - SEMANA 8
+Clase 40 - Consolidación de evidencia
+
+Nombre:Isabela Castilla Berrío.
+Fecha:11/06/2026
+Entorno usado:GitHub
+
+1. ¿Qué aprendí sobre el sistema operativo como base de una plataforma?
+Respuesta: Es de gran ayuda para una plataforma, debido a que es un puente entre el usuario y el hardware. Recibiendo las peticiones y respondiendo con la tarea.
+
+2. ¿Qué comandos de terminal usé durante la semana?
+Respuesta:git checkout, git status, git add, pwd, ls, git commit, git push, cd ..
+
+3. ¿Qué aprendí sobre usuarios, grupos y permisos?
+Respuesta:Sí, hacen parte del buen funcionamiento de una plataforma comunitaria. Debido a que garantiza seguridad a los miembros, haciendo un seguimiento de quien edita, quien lee, ejecuta.
+
+4. ¿Qué significa mínimo privilegio?
+Respuesta:Estable a cualquier usuario los minímos accesos o los necesarios, para cumplir sus funciones legítimas.
+
+5. ¿Por qué un permiso como 777 puede ser riesgoso?
+Respuesta: Porque no todos los usuarios necesitan tener acceso a información riesgosa. Si se permite puede que esa información caiga en manos incorrectas.
+
+6. ¿Qué aprendí sobre procesos?
+Respuesta: Deben documentarse para llevar una trazabilidad. Hacer un segumiento de los cambios.
+
+7. ¿Qué puede pasar si un proceso se detiene?
+Respuesta:Ocurrió un error, debe verifircarse de forma inmediata.
+
+8. ¿Qué aprendí sobre logs?
+Respuesta:Los logs guardan información de un evento, detectando errores, cambios o advertencias.
+
+9. ¿Cómo ayudan los logs al diagnóstico?
+Respuesta:LLevan un registro de esos cambios. Ayudando a crear una línea temporal.
+
+10. ¿Qué aprendí sobre Git y trazabilidad?
+Respuesta: Las dos son herramientas fundamentales para un desarrollador, ayudan a llevar un control, a llevar un historial. No solo una simple función, una manera de abrir mundos técnologicos.
+
+11. ¿Qué aprendí sobre archivos .env y tokens?
+Respuesta:Deben permanecer en privado, con comaprtirse con otras personas o IAs.
+
+12. ¿Cómo puede servir Telegram a una comunidad digital?
+Respuesta:Puede ser un medio de comunicación ampliamente importante. Ayuda a compartir necesidades, ayudar a otras personas, compartir anuncios importantes.
+
+13. ¿Qué cuidados debo tener antes de integrar Telegram con Node.js o n8n?
+Respuesta:Deben existir protocolos que controlen estos proceso.Para que esa s¿información sensible que se comparte permanezca en privado.
+
+14. ¿Qué fue lo más importante de la Semana 8?
+Respuesta:Todos los aspectos fueron importantes debido a que ayudaron, dieron herramientas para no confiar en cualquier cosa que vemos en internet. Sino contar con actitudes para nosotros mismos protegernos digitalmente.

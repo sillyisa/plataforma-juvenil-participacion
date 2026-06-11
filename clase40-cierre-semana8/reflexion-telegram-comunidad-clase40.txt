@@ -1,0 +1,35 @@
+REFLEXIÓN TÉCNICA INICIAL SOBRE TELEGRAM COMO CANAL COMUNITARIO
+Clase 40 - Semana 8
+
+Nombre:Isabela Castilla Berrío.
+Fecha:11/06/2026
+
+1. ¿Cómo podría servir Telegram a una comunidad digital?
+Respuesta:Telegran ayuda para comunicar a todas las personas de la comunidad, permitiendo que se habran espacios de ayuda, aprendizaje.
+
+2. ¿Qué mensajes o alertas sería útil enviar por Telegram?
+Respuesta:Alertas cque afecten a la comunidad. Como avisos educativos, ambientales, sociales.
+
+3. ¿Qué reportes no sensibles podrían automatizarse?
+Respuesta:Cosas como el número de tareas, cantidad de incidencias, estado de un proyecto, recordatorio de reuniones.
+
+4. ¿Qué información no debería enviarse por Telegram sin protocolo?
+Respuesta:Creedenciales, tokens, nombres, datos bancarios.
+
+5. ¿Qué tareas conviene dejar en Node.js?
+Respuesta:Recibir y procesar mensajes de un bot de telegram, conectarse a base de datos, consumir APIs externas.
+
+6. ¿Qué tareas conviene automatizar con n8n?
+Respuesta:Enviar notificaciones automáticas por telagram o correo, programar recordatorios y alertas, generar reportes periódicos.
+
+7. ¿Qué credenciales deben protegerse?
+Respuesta:Nombres de los miembros, contraseñas, tokens, claves.
+
+8. ¿Por qué el token del bot no debe estar en GitHub?
+Respuesta:Porque un token revela información sensible del usuario. Al estar en GitHub cualquier persona puede verlo.
+
+9. ¿Qué medidas de seguridad deben aplicarse antes de una integración real?
+Respuesta:Guardar información privada en archivos .env, no publicar creedenciales en github, configurar permisos adecuados, utilizar conexiones seguras.
+
+10. ¿Qué pregunta técnica me queda para la siguiente semana?
+Respuesta:Como integrar este tema a distintas comunidades.
